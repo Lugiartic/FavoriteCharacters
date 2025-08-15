@@ -1,0 +1,102 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+header h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.card-wrapper article{
+    flex: 1 1 340px;
+    max-width: 340px;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    /* margin: 1rem 0; */
+    margin: 0;
+    /* margin-bottom: auto; */
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    border: 1px solid grey;
+}
+
+.card-wrapper article img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+/* section article{
+    transition: all 0.3s ease;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+} */
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+footer{
+    background-color: #222;
+    padding: 2.5rem;
+    color: white;
+}
+
+footer section{
+    float: right;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    margin: 0;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+section a{
+    margin: 0.5rem;
+}
